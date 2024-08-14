@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+body{
+    margin: 0;
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* shared */
+* {
+    color: white;
+    font-family: inter;
+}
+p {
+    font-size: small;
+    color: rgba(255, 255, 255, 0.658);
+    line-height: 1.5;
+}
+.btn {
+    background-color: orangered;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+header {
+    margin-bottom:100px;
+    padding: 0px 100px 0px 100px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+
+}
+
+
+
+
+
+/* header responsive */
+@media screen and (max-width:576px) {
+    header {
+        padding: 0px;
+    }
+    
+}
+
+
+
+
+/* navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    
+   
+}
+.nav i {
+    
+    color: orangered;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav ul {
+    position:relative;
+    right: 90px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-radius: 30px;
+    border: rgba(46, 46, 46, 0.747) solid 2px;
+    padding:4px;
+    gap: 40px;
+    height: 36px;
+    width: 450px;
+    align-items: center;
+
+}
+ul li a {
+    text-decoration: none;
+   
+    
+}
+nav ul #li{
+    background-color: orangered;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 4px 15px;
+}
+
+
+
+
+
+/* banner part */
+.banner {
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    padding: 0px 100px 0px 0px;
+    justify-content: space-between;
+    
+        
+    }
+    .banner-text{
+        width: 50%;
+        margin: 20px;
+    
+    }
+    
+    .banner-text h1 { 
+        font-size: 78px;
+        font-weight: 900;
+        margin-bottom: 0;
+        line-height: .9;
+    }
+
+    .banner-text p {
+        margin-bottom:20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .banner-text span {
+        font-family: 'miama';
+        font-size: 100px;
+        font-weight: 300;
+        
+    }
+    
+    
+    .exe-btn {
+        background-color: black;
+        border: rgba(46, 46, 46, 0.747) solid 2px;
+        border-radius: 25px;
+        height: 40px;
+        width: 200px;
+        padding: 10px;
+        margin-left: 50px;
+    }
+    
+    .card {
+    position: relative;
+    /* background-color: greenyellow; */
+    
+    
+    }
+    
+    
+    .card1{
+        position: absolute;
+        top: 9em;
+        left: 15em;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px; 
+        padding: 10px 20px 0px;
+        width: 195px;
+        height: 96px;
+        backdrop-filter: blur(10px);
+
+    
+    
+    }
+    .card1 h2{
+        font-weight: 900;
+        font-size: 35px;
+        margin: 0;
+
+    }
+    .card2{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 25em;
+        right: 15em;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px; 
+        padding: 5px 15px;
+        width: 195px;
+        height: 96px;
+        backdrop-filter: blur(10px);
+        
+
+    }
+
+    .card2 h2{
+        font-size: 25px;
+        font-weight:800;
+        margin: 0;
+    }
+    .card2 .circle {
+        height: 45px;
+        width: 45px;
+        background-color:rgb(255, 69, 0);
+        border-radius: 50%;
+        position: relative;
+    }
+    .circle .fa-solid{
+        position: absolute;
+        left: 16px;
+        top: 23px;
+    }
+
+    
+
+
+
+
+
+
+/* change section */
+.Change{
+    text-align: center;
+    margin: 0px 100px 100px 100px;;
+}
+.Change h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 14px 0px;
+}
+.intro p {
+    margin: 14px 270px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    
+
+}
+.image img {
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    
+}
+.image h6 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px auto 0px;
+
+}
+.image p {
+    margin: 10px 40px;
+}
+
+
+
+
+
+/* run section */
+
+.run {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(34, 34, 34);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 0px 100px 100px 100px;
+}
+
+.run h2{
+    margin:0 300px 0 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+.run p {
+    margin: 20px 200px 20px 0px;
+}
+.run img {
+    border-radius: 20px;
+    width: 370px;
+    height: 312px;
+    Object-fit:none;
+    Object-position: 68% 34%;
+    
+}
+
+
+
+/* calculator part */
+.bmi {
+    margin: 0px 400px 50px 400px;
+
+}
+.bmi h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.calculator-ultra {
+    background-color: rgb(34, 34, 34);
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+
+
+.calculator-ultra td, th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 165px;
+    padding: 8px;
+    text-align: left;
+}
+
+.calculator-ultra td {
+    color: rgba(255, 255, 255, 0.5);
+}
+.calculator{
+    margin: auto 0px auto 200px;
+}
+
+.cal-text h3{
+    margin-bottom: 0;
+}
+
+.cal-text p {
+    margin: 10px 100px 20px 0;
+    
+}
+.calculator-ultra h3{
+    font-size: 28px;
+    font-weight: 800;
+}
+.calculator-ultra table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.form select{
+    color: rgba(255, 255, 255, 0.3);
+
+    /* never seen before, need to research more */
+    appearance: none; 
+    padding-right: 30px;
+
+}
+
+#sex {
+    width: 100%;
+    
+}
+.gender{
+    position: relative;
+}
+.gender .fa-solid{
+    position: absolute;
+    right:20px;
+    top: 15px;
+    opacity: .5;
+    pointer-events: none;
+
+    
+}
+.activity{
+    position: relative;
+}
+
+#activity {
+    width: calc(200% + 15px);
+    position: relative;
+}
+.activity .fa-solid{
+    position: absolute;
+    bottom:15px;
+    left: calc(200% - 20px);
+    opacity: .5;
+    pointer-events: none;
+}
+.textarea {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    padding-left:10px ;
+
+}
+
+
+
+
+
+
+/* trainers section  */
+.trainer-text {
+    text-align: center;
+    margin: 0px 360px 50px 360px;
+}
+
+.trainer-text h2 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom:0px;}
+
+.trainers {
+    margin: 0px 100px 100px 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.trainer h3{
+    font-size: 25px;
+    font-weight:800;
+    margin-bottom: 0;
+}
+
+.trainers img {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    opacity: .8;
+    
+} 
+.trainer-container {
+    position: relative;
+    padding: 7px;
+    
+}
+.trainer {
+    position: absolute; 
+    text-align: left;
+    padding: 15px;
+    left: 25px;
+    top: 190px;
+    z-index: 1;
+}
+.trainer p{
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+/* success part (unique) */
+.success {
+    margin-bottom: 50px;
+    background-image: url(images/gym.jpg);
+    background-size: cover;
+    
+    
+}
+
+.suc-title{
+    text-align: center;
+}
+
+.suc-title h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.suc-title p{
+    margin: 20px 350px 0px;
+}
+
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    margin:30px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+
+
+    
+}
+
+.story .text{
+    padding: 30px 0 0;
+}
+
+.story h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin:0;
+}
+
+.story img{
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+}
+.success a{
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    margin: 0px 100px 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: left;
+    padding: 20px;
+    
+}
+footer {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding-bottom: 40px;
+}
+.contact{
+    display: flex;
+}
+.paragraph, .contact{
+    flex: 1;
+}
+
+.paragraph h2 i{
+    color: orangered;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.paragraph p {
+    padding-right: 140px;
+}
+.list {
+    flex: 1;
+    padding-left: 0;
+    
+}
+
+.list h3{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.list ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.list ul li {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: large;
+    padding: 5px;
+}
+
+hr{
+    border: .5px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.foot {
+    color: rgba(255, 255, 255, 0.5);
+}
