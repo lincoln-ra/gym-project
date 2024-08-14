@@ -1,0 +1,347 @@
+.btn {
+    width: 45%;
+    height: 50px;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* navigation bar */
+nav {
+    padding: 10px;
+
+}
+nav ul {
+    display: none;
+}
+
+.hamburger {
+    width: 20px;
+    height: 15px;
+    position: relative;
+    left: 20px;
+    top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.hamburger .line {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* banner part */
+.banner {
+    flex-direction: column;
+    padding:0; 
+    }
+
+    .banner-text{
+        width: 95%;
+    }
+    
+    .banner-text h1 { 
+        font-size:40px;
+        font-weight: 900;
+        margin-bottom: 0;
+        padding-right:40px
+        
+    }
+
+    .banner-text p {
+        margin-bottom:20px;
+        padding-right: 60px;
+    }
+
+    .exe-btn {
+        width: 45%;
+        height: 50px;
+        margin-left: 25px;
+    }
+    
+    .card {
+    position: relative;
+    margin-top: 50px;
+    padding: 0;
+    /* background-color: greenyellow; */
+    }
+    
+    
+    .card1{
+        top: 3em;
+        left: 12em;
+        border-radius: 10px; 
+        padding: 10px 10px 0px 10px;
+        width: 130px;
+        height: 70px;
+    }
+    .card1 h2{
+        font-size: 25px;
+    }
+
+    .card2{
+        top: 16em;
+        right: 10em;
+        padding: 10px 10px 0px 10px;
+        width: 150px;
+        height: 70px;
+    }
+
+    .card2 h2{
+        font-size: 20px;
+        font-weight:800;
+        margin-bottom: 0;
+    }
+
+    .circle .fa-solid{
+        position: absolute;
+        left: 14px;
+        top: 22px;
+    }
+
+
+
+
+
+/* change section */
+.Change{
+    text-align: center;
+    margin: 20px;
+}
+
+.Change h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.intro p {
+    margin: 15px;
+}
+
+.image {
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.image p {
+    margin: 10px 60px;
+}
+
+
+
+/* run section */
+
+.run {
+    display: flex;
+    flex-direction: column;
+    background: rgb(34, 34, 34);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px;
+    gap: 30px;
+}
+
+.run h2{
+    margin-right: 60px;
+    font-size: 32px;
+    font-weight: 900;
+}
+.run p {
+    margin-right: 50px;
+}
+
+.run .btn { width: 100%;}
+
+.img-container{
+    border-radius: 20px;
+    width: 100%;
+    height:100%;
+
+    
+}
+
+.img-container img{
+    width: 100%;
+    height: 170px;
+    object-fit:cover;
+}
+
+
+/* calculator part */
+.bmi {
+    margin: 20px;
+
+}
+.bmi h1{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.calculator-ultra table {
+    border-collapse: collapse;
+    margin-top: 0px;
+    width:90%;
+}
+.calculator-ultra {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+.calculator-ultra h3{
+    font-size: 16px;
+font-weight: 900;
+}
+
+.calculator{
+    margin:0;
+}
+
+.cal-text p {
+    margin: 10px 60px 20px 0;
+}
+
+.textarea {
+    width: 94%;
+    height: 45px;
+
+}
+@media  screen and (max-width: 400px) {
+    .textarea{
+        width: 91.5%
+    
+}
+}
+
+
+/* trainers section  */
+.trainer-text {
+    margin: 0;
+}
+
+.trainer-text h2 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.trainer-text p {
+    margin: 15px 30px;
+}
+
+.trainers {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+}
+
+.trainer h3{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.trainers img {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+} 
+.trainer-container {
+    position: relative;
+    padding: 0 8px;
+}
+#trainer1{
+    display: none;
+}
+#trainer0{
+    display: none;
+}
+.trainer {
+    padding: 0;
+}
+
+
+
+/* success part (unique) */
+.success {}
+
+.suc-title{
+    text-align: center;
+}
+
+.suc-title h1{
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.suc-title p{
+    margin: 20px 20px 0px;
+}
+
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+}
+
+
+
+
+
+
+/* footer */
+.footer {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+footer {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph p {
+    padding-right: 50px;
+}
+.list {
+    flex: 1;
+    padding-left: 0;
+    
+}
+
+.list h3{
+    margin-left: 0px;
+}
+
+.list ul {
+    padding-left: 0px;
+}
+
+
+
+
+
+
